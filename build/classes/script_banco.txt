@@ -1,0 +1,7 @@
+create table tasks (
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	descricao VARCHAR(255),
+	finalizada BOOLEAN,
+	dataFinalizacao DATE,
+	primary key (id)
+);
